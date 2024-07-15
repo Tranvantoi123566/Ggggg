@@ -13,7 +13,7 @@ router.get('/', (req , res) => {
  
 });
 
-router.post('/dangky', (req , res) => {
+router.post('/dangnhap', (req , res) => {
   var username = req.body.username;
   var password = req.body.password;
   
